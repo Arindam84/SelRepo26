@@ -2,7 +2,10 @@ name: Selenium Google Search Tests
 
 on:
   workflow_dispatch:
-    
+permissions:
+  contents: read      # Allows the action to read your code
+  checks: write        # REQUIRED for Test Reporters to post results
+  pull-requests: write # Optional: if you want it to comment on PRs  
 jobs:
   test:
     runs-on: ubuntu-latest
