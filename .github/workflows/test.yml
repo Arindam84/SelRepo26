@@ -44,5 +44,5 @@ jobs:
       with:
         name: Test Results
         path: 'target/surefire-reports/testng-results.xml'
-        reporter: 'java-testng'
+        reporter: java-junit
         fail-on-error: false
