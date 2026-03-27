@@ -43,6 +43,6 @@ jobs:
       uses: dorny/test-reporter@v1
       with:
         name: Test Results
-        path: 'target/surefire-reports/testng-results.xml'
+        path: 'target/surefire-reports/junitreports/TEST-*.xml'
         reporter: java-junit
         fail-on-error: false
