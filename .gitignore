@@ -1,0 +1,29 @@
+# Maven
+target/
+.m2/
+*.jar
+*.war
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.class
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Selenium
+*.png
+*.mp4
+
+# Test reports
+test-output/
+allure-results/
+surefire-reports/
+
+# Environment
+.env
+.env.local
